@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/cardview_dark_background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3pt"
+        android:background="@drawable/background_layout"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/des"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:text="@string/lorem_ipsum" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Space
+                android:layout_width="343dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/editIV"
+                android:layout_width="91dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/baseline_edit_black_18" />
+
+            <ImageView
+                android:id="@+id/deleteIV"
+                android:layout_width="91dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/baseline_delete_black_18" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

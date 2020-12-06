@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item
+        android:id="@+id/addNote"
+        android:icon="@drawable/baseline_note_add_white_24dp"
+        android:title="Item"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/searchNote"
+        android:icon="@drawable/baseline_search_white_24dp"
+        android:title="Search"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always" />
+</menu>
